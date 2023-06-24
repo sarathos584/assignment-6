@@ -121,13 +121,16 @@ nav .nav-items {
   font-family: Inter;
   font-weight: 700;
 }
-.user-revenue .wrapper {
+.wrapper {
   border-radius: 17.889px;
   border: 0.894px solid var(--stroke-color, #eff0f6);
   background: #fff;
   padding: 22px 18px;
 }
-.user-revenue .wrapper ul li {
+.user-revenue .row {
+  row-gap: 1rem;
+}
+.user-details .wrapper ul li {
   list-style: none;
   white-space: nowrap;
 }
@@ -140,6 +143,36 @@ nav .nav-items {
   color: rgba(0, 0, 0, 0.5);
   font-size: 8.717px;
   font-weight: 700;
+}
+.revenue-details .row {
+  row-gap: 1rem;
+}
+.revenue-details .wrapper {
+  padding: 15px 17px !important;
+}
+.user-activity .row {
+  row-gap: 1rem;
+}
+.g-head {
+  color: #4d4d4d;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: -0.154px;
+}
+.t-text {
+  color: #606060;
+  font-size: 12.522px;
+  letter-spacing: -0.138px;
+}
+.revenue-count {
+  color: #000;
+  text-align: right;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: -0.154px;
+}
+.revenue-generator .row{
+  row-gap: 1rem;
 }
 @media screen and (max-width: 992px) {
   .col-nav {
